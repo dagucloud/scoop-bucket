@@ -1,0 +1,32 @@
+{
+    "version": "2.26.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/dagucloud/dagu/releases/download/v2.26.0/dagu_2.26.0_windows_386.zip",
+            "bin": [
+                "dagu.exe"
+            ],
+            "hash": "e1cc498261bf07a9188feeecfc5777bb099aa0ce232517d06fd5c654c810eb25"
+        },
+        "64bit": {
+            "url": "https://github.com/dagucloud/dagu/releases/download/v2.26.0/dagu_2.26.0_windows_amd64.zip",
+            "bin": [
+                "dagu.exe"
+            ],
+            "hash": "e210f872564073804db2fc36ef5ba38df42393f01c1d5f8d333f08250613d014"
+        },
+        "arm64": {
+            "url": "https://github.com/dagucloud/dagu/releases/download/v2.26.0/dagu_2.26.0_windows_arm64.zip",
+            "bin": [
+                "dagu.exe"
+            ],
+            "hash": "816fd57277810fb3da9154534d17d48228b7ea52622c2c132f2fcd0eacda98c3"
+        }
+    },
+    "homepage": "https://github.com/dagucloud/dagu",
+    "license": "GPL-3.0",
+    "description": "A compact, portable, and language-agnostic workflow engine",
+    "post_install": [
+        "Write-Host \"Run 'dagu start-all' and open http://localhost:8080 to create the admin account.\""
+    ]
+}
