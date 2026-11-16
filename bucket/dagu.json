@@ -1,26 +1,26 @@
 {
-    "version": "2.26.0",
+    "version": "2.27.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/dagucloud/dagu/releases/download/v2.26.0/dagu_2.26.0_windows_386.zip",
+            "url": "https://github.com/dagucloud/dagu/releases/download/v2.27.0/dagu_2.27.0_windows_386.zip",
             "bin": [
                 "dagu.exe"
             ],
-            "hash": "e1cc498261bf07a9188feeecfc5777bb099aa0ce232517d06fd5c654c810eb25"
+            "hash": "52b693e594a761119b87e38044625d9fe9b1075cee3b958be6907022ff372f4a"
         },
         "64bit": {
-            "url": "https://github.com/dagucloud/dagu/releases/download/v2.26.0/dagu_2.26.0_windows_amd64.zip",
+            "url": "https://github.com/dagucloud/dagu/releases/download/v2.27.0/dagu_2.27.0_windows_amd64.zip",
             "bin": [
                 "dagu.exe"
             ],
-            "hash": "e210f872564073804db2fc36ef5ba38df42393f01c1d5f8d333f08250613d014"
+            "hash": "7dd374e7d42c0e008aa740517a243c4218708b708173c0302918bde7d59f9711"
         },
         "arm64": {
-            "url": "https://github.com/dagucloud/dagu/releases/download/v2.26.0/dagu_2.26.0_windows_arm64.zip",
+            "url": "https://github.com/dagucloud/dagu/releases/download/v2.27.0/dagu_2.27.0_windows_arm64.zip",
             "bin": [
                 "dagu.exe"
             ],
-            "hash": "816fd57277810fb3da9154534d17d48228b7ea52622c2c132f2fcd0eacda98c3"
+            "hash": "03107065373a75ea757c4e3c84d902a1b2d55ed765d4af14a146665d1a457e8c"
         }
     },
     "homepage": "https://github.com/dagucloud/dagu",
